@@ -1,0 +1,185 @@
+﻿@import url('layout.css');
+img {
+	border: none;
+}
+body {
+	color: black;
+	font-size: 13px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #233255;
+}
+#main_container {
+	background-color: #142341;
+	color: white;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+#masthead {
+	text-align: right;
+	background-color: #142341;
+}
+#langbar {
+	background-color: #142341;
+	overflow: hidden;
+}
+#header {
+	background-color: #142341;
+}
+#navigation {
+	background-color: #142341;
+	overflow: hidden;
+}
+#column_l .container {
+	background-color: #243452;
+}
+#column_c .container {
+	background-color: #243452;
+}
+#column_r .container {
+	background-color: #243452;
+}
+/* Styles for Masthead */
+#masthead p {
+	font-size: 11px;
+	color: #fff;
+	margin: 10px 10px 0;
+}
+/* Styles for Lang Bar */
+#langbar ul {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#langbar li {
+	float: right;
+	display: block;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+}
+#langbar li + li {
+	border-right: 1px solid #a9a9a9;
+}
+#langbar a {
+	width: 24px;
+	height: 24px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 2px 0px;
+	font-weight: bold;
+	background-image : url(../images/langbutton.png);
+	background-repeat: no-repeat;
+}
+#langbar a:hover {
+	width: 24px;
+	height: 24px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	background-image : url(../images/langbutton_h.png);
+	background-repeat: no-repeat;
+}
+/* Styles for Navigation */
+#navigation ul {
+	list-style-type: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#navigation li {
+	float: left;
+}
+#navigation li + li {
+	border-left: 1px solid #a9a9a9;
+}
+#navigation a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 0px 10px;
+	border: 0;
+}
+#navigation a:hover {
+	color: #fff;
+	text-decoration: none;
+	border: 0;
+	background-color: #233255;
+}
+/* Styles for Footer */
+#footer p {
+	font-size: 11px;
+	line-height: 14px;
+	color: #fff;
+	margin: 1px;
+	padding: 1px;
+}
+#footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+/* Styles for Links */
+a {
+	color: #fff;
+	text-decoration: underline;
+}
+a:hover {
+	color: #808080;
+	text-decoration: underline;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
+#col_l_button {
+	background-image: url('../images/button_l.png');
+	background-repeat: no-repeat;
+}
+#lbutton a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+	background-image : url(../images/lbutton.png);
+	background-repeat: no-repeat;
+}
+#lbutton a:hover {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	background-image : url(../images/lbutton_h.png);
+	background-repeat: no-repeat;
+	background-position: 0px,0px;
+}
+#rbutton a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+	background-image : url(../images/rbutton.png);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+#rbutton a:hover {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	background-image : url(../images/rbutton_h.png);
+	background-repeat: no-repeat;
+	background-position: 0px,0px;
+}
